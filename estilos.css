@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	border: solid 1px blue;
+	display: flex;
+	background-color: black;
+	color: #ffffff;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+	width: 100%;	
+}
+
+nav div{
+	padding: 0px 15px 0px 15px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	nav{
+		background-color: blue;
+  		color: black;
+  	}
+}
