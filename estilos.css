@@ -3,25 +3,52 @@
 	padding: 0px;
 }
 
+header{
+	background-color: #000000;
+}
+
 nav{
-	border: solid 1px blue;
 	display: flex;
-	background-color: black;
-	color: #ffffff;
-	align-items: center;
+	flex-direction: row;
 	justify-content: space-between;
-	height: 40px;
-	width: 100%;	
+	align-items: center;
 }
 
-nav div{
-	padding: 0px 15px 0px 15px;
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 15px;
 }
 
+.enlaces{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 15px;
+}
+
+a{
+	padding: 15px 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+img{
+	height: 33px;
+	width: 30px;
+	border-radius: 15px;
+}
 
 @media only screen and (max-width: 768px) {
 	nav{
-		background-color: blue;
-  		color: black;
+		background-color: #599FDB;
+	}
+	a{
+  		color: #000000;
+
   	}
 }
